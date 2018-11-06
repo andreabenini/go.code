@@ -9,3 +9,7 @@
   https://talks.golang.org/2012/concurrency.slide#1
 - Advanced Go Concurrency Patterns<br>
   https://talks.golang.org/2013/advconc.slide#1
+
+# Sample projects
+- TCP Server. Hooks and object like nice project <br>
+  https://github.com/firstrow/tcp_server/
