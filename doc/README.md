@@ -11,6 +11,8 @@
   https://talks.golang.org/2013/advconc.slide#1
 - Golang Tips and Tricks<br>
   https://golangvedu.wordpress.com/
+- Writing Web Applications<br>
+  https://golang.org/doc/articles/wiki/
 
 # Sample projects
 - TCP Server. Hooks and object like nice project <br>
