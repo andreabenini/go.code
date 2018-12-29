@@ -48,6 +48,23 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
+    
+    // delete data
+    err = db.Update(func(tx *bolt.Tx) error {
+        bucket, err := tx.CreateBucketIfNotExists(world)
+        if err != nil {
+            return err
+        }
+        err = bucket.Delete(key, key)
+        if err != nil {
+            return err
+        }
+        return nil
+    })
+    if err != nil {
+        log.Fatal(err)
+    }
+    
 }
 
 // output:
