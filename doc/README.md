@@ -13,6 +13,8 @@
   https://golangvedu.wordpress.com/
 - Writing Web Applications<br>
   https://golang.org/doc/articles/wiki/
+- Ultimate Go Programming (video)<br>
+  https://www.oreilly.com/library/view/ultimate-go-programming/9780135261651/
 
 # Sample projects
 - TCP Server. Hooks and object like nice project <br>
