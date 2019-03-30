@@ -5,6 +5,8 @@
     https://tour.golang.org/welcome/1
 
 # Useful resources
+- Hands-on introduction to Go using example programs<br>
+  https://gobyexample.com/
 - Go Concurrency Patterns<br>
   https://talks.golang.org/2012/concurrency.slide#1
 - Advanced Go Concurrency Patterns<br>
