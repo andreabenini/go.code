@@ -19,5 +19,5 @@
   https://www.oreilly.com/library/view/ultimate-go-programming/9780135261651/
 
 # Sample projects
-- TCP Server. Hooks and object like nice project <br>
-  https://github.com/firstrow/tcp_server/
+- TCP Server. Hooks and object like nice project https://github.com/firstrow/tcp_server/<br>
+  but also take a look at local resource and test code, like: [Concurrent TCP Server](../src/tcp.server.go)
