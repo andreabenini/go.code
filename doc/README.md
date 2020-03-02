@@ -43,6 +43,9 @@
   http://gotime.fm
 - List of videos related to Go  
   http://gophervids.appspot.com
+- Golang Tutorial for Beginners  
+  6:30h full tutorial, follow it in more times and you're fine  
+  https://www.youtube.com/watch?v=YS4e4q9oBaU
 
 
 # Books
