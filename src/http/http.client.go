@@ -1,3 +1,25 @@
+// HTTP GET/JSON Example
+func httpGet(url string) jsonResult {
+	request, error := http.NewRequest("GET", url, nil)
+	request.Header.Set("Content-Type", "application/json")
+	request.Header.Set("Authorization", "Bearer SoMeThInG")
+	clientRequest := &http.Client{}
+	response, error := clientRequest.Do(request)
+	if error != nil {
+		fmt.Printf("Error")
+		os.Exit(1)
+	}
+	body, error := ioutil.ReadAll(response.Body)
+	if error != nil || response.StatusCode != 200 {
+		fmt.Printf("Error. HTTP %d\n%s\n", response.StatusCode, body)
+		os.Exit(1)
+	}
+	var result jsonResult
+	json.Unmarshal(body, &result)
+	return result
+} /**/
+
+
 // HTTP POST Example
 func httpPost(url string) string {
     // HTTP POST
