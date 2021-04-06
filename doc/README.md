@@ -56,6 +56,9 @@
   http://www.golangbootcamp.com/book
 - Go in action  
   https://www.manning.com/books/go-in-action
+- Practical Go Lessons (online)  
+  https://www.practical-go-lessons.com/  
+  book is fine, buy it to support the author
 
 
 # Web stuff
